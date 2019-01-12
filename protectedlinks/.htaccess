@@ -1,0 +1,4 @@
+IndexIgnore *
+
+RewriteEngine on
+RewriteRule ^([^/\.]+)/?$ download.php?downcode=$1 [L]

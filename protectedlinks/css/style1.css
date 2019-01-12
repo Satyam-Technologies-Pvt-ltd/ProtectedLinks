@@ -1,0 +1,365 @@
+html, body, div, table, tr, h1, h2, h3, h4, h5, h6, ul, input, form, select, textarea, img, p, a{margin:0; padding:0; border:0; text-decoration:none;}
+body{background:url(../images/back.jpg) repeat; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+#wrapper{width:980px; margin:0 auto;  background:#FFFFFF;}
+#header{width:980px; float:left; background:#FFFFFF;}
+/*================top header===============*/
+#top_feader{width:980px; float:left;}
+#logo{width:290px; float:left; margin:20px 0 0 20px;}
+#wel_admin{width:154px; height:28px; float:left; background:url(../images/admin_back.png) no-repeat; margin:20px 0 0 495px;}
+#wel_admin h4{font-family:Tahoma, Geneva, sans-serif; font-size:11px; color:#FFF; float:left; margin:4px 0 0 8px; width:93px;}
+#wel_admin ul{width:38px; float:left; margin:3px 0 0 11px; list-style:none;}
+#wel_admin ul li{float:left;}
+/*===================navigation=============*/
+#navigation{float:left; width:980px; background:#f2f2f2; border-bottom:1px solid #dcdcdc; border-top:1px solid #dcdcdc; margin:14px 0 0 0;}
+#left_nav{float:left; width:450px; font-family:Arial, Helvetica, sans-serif; font-size:14px; margin:0 0 0 10px;}
+#left_nav ul{float:left; list-style:none;}
+#left_nav ul li{float:left; color:#666666; height:30px;}
+#left_nav ul li a{color:#666; text-decoration:none; margin:0 9px 0 9px; line-height:26px; float:left;}
+/*==================left nav end==========*/
+#right_nav{width:326px; float:left; margin:0 0 0 187px;}
+#download{background:url(../images/download_back.png) no-repeat; width:114px; height:27px; float:left; margin:2px 0 0 0;}
+#download strong{color:#7b7b7b; text-transform:uppercase; float:left; margin:5px 0 0 30px;}
+#download strong a{color:inherit;}
+.count{float:left; margin:4px 0 0 0;}
+.count span{float:left; margin:3px 0 0 8px; color:#a9a9a9;}
+.count .count1{background:url(../images/blue_block.png) no-repeat; width:37px; height:22px; float:left; margin:0 0 0 8px; text-align:center; padding:2px 0 0 0; color:#FFFFFF; font-weight:bold;}
+.count .count2{background:url(../images/red_block.png) no-repeat; width:36px; height:22px; float:left; margin:0 0 0 8px; text-align:center; padding:2px 0 0 0; color:#FFFFFF; font-weight:bold;}
+/*==================end of navigation============*/
+#lower_header{width:980px; float:left; margin:0 0 10px 0;}
+#lower_header table{float:left; margin:10px 0 0 0px; width:980px;}
+#lower_header table input{padding:0 0 0 5px; color:#a9a9a9; float:left; height:30px; width:148px;}
+#lower_header table td{border:1px solid #eaeaea; height:30px; width:187px; float:left; margin:0 0 0 17px;}
+#lower_header table td img{float:left;}
+#lower_header table td:last-child{width:90px; margin:0 0 0 20px; border:1px solid #eaeaea;}
+#lower_header table input:last-child{width:90px; padding:0 10px 0 10px;}
+/*============bottom header ends==================*/
+#layout{width:980px; float:left; background:#FFFFFF;}
+#layouthd{float:left; width:940px; margin:0 0 10px 20px; border:1px solid #eaeaea;}
+#heading h2{float:left; color:#222222; font-size:14px; font-weight:normal; text-transform:uppercase;  padding:9px 0 8px 20px;}
+/* By gaurav on 25-05-2012 */
+#heading div{float:left; color:#222222; font-size:14px; font-weight:bold;  padding:9px 0 8px 20px;}
+
+/*--------------------*/
+#heading ul{float:left; width:20px; list-style:none; padding:1px 0 0 590px;}
+#heading ul li{margin:0;}
+#heading{ border:1px solid #eaeaea; width:938px; float:left; background:#fafafa; }
+#layouthd h3{color:#1c1c1c; font-size:12px; width:877px; float:left; margin:20px 0 0 30px;}
+#heading2{width:875px; float:left; margin:20px 0 0 30px; border:1px solid #eaeaea;background:#fafafa;}
+#heading2 h5{color:#1c1c1c; font-size:12px; width:300px; float:left; font-weight:normal; padding:8px;}
+#heading2 select{width:50px; border:1px solid #eaeaea; float:right; margin:5px 0 0 0;}
+#layouthd table{width:895px; float:left; margin:18px 0 0 18px; border:1px solid #eaeaea;}
+#layouthd table tr.bg1{background:#f9f9f9;}
+.bg1{background:#efefef;}
+#layouthd table a{color:inherit;}
+#layouthd table td{padding:5px 0 3px 10px; border:1px solid #eaeaea;}
+#layouthd table td strong{margin:0px 0 0 0; float:left;}
+#layouthd table ul{list-style:none; float:right; width:15px; margin:0;}
+#layouthd table td .drop{float:right;}
+#log{float:left; width:90px;}
+/*===============layout head===========*/
+#layoutbtm{width:250px; float:left; margin:10px 0 20px 680px;}
+#layoutbtm table{text-align:center; border:1px solid #eaeaea;}
+#layoutbtm table a{color:inherit;}
+#layoutbtm table td{background:#fafafa; border:1px solid #eaeaea;}
+/*================layout ends==============*/
+#table_top{width:900px; float:left; margin:10px 0 0 30px; border-top:1px solid #eaeaea;}
+#table_top table a{color:#0456c6;}
+#table_top h2{font-size:20px; color:#222; float:left; margin:10px 0 0 0;}
+#table_top table{border:none; float:left; width:890px; margin:0;}
+#table_top table td{border:none;}
+#table_top table td input{width:450px; background:#fafafa; height:25px; border:1px solid #eaeaea;}
+
+/*******************/
+#table_top-set{width:900px; float:left; margin:10px 0 0 30px; border-top:1px solid #eaeaea;}
+#table_top-set a{color:#0456c6;}
+#table_top-set h2{font-size:20px; color:#222; float:left; margin:10px 0 0 0;}
+#table_top-set table{border:none; float:left; width:890px; margin:0;}
+#table_top-set table td{border:none;}
+#table_top-set table td input{ background:#fafafa;  border:1px solid #eaeaea;}
+
+
+
+
+
+#restriction{width:900px; float:left; margin:10px 0 0 30px; border-top:1px solid #eaeaea;}
+#restriction table{border:none; float:left; margin:0; width:890px;}
+#restriction table td{border:none;}
+#restriction table td input{ border:1px solid #eaeaea; float:left; background:#fafafa; height:24px; padding:0 5px 0 0;}
+#restriction table td textarea{background:#fafafa; border:1px solid #eaeaea; width:349px; height:70px;}
+#restriction table td img{float:left;}
+#restriction table td span{float:left; margin:5px 0 0 5px;}
+#restriction table td strong{float:left; margin:5px 0 0 5px; color:#b80000; float:left;}
+.table2{width:320px; float:left; margin:0px 0 0 0;}
+.table2 span{ color:#0456c6;}
+.table3{width:350px; float:left;}
+.table3 span{ color:#0456c6;}
+.table4{width:250px; float:left; margin:0px 0 0 0;}
+.table4 span{margin:50px 0 0 0; color:#b80000;}
+.smspan{margin:0px 0 0 0; color:#b80000;}
+.smscrr{margin:0px 0 0 0; color:#0456c6;}
+#submit{width:500px; float:left; margin:0 0 20px 0;}
+#submit table{float:left; width:400px; border:0;}
+#submit table input{background:url(../images/button_back.png) no-repeat; width:90px; height:28px; text-align:center; text-transform:uppercase;}
+#submit table td{border:none;}
+/*===================tabletop ends====================*/
+#footer{width:980px; float:left; background:#FFFFFF; Padding-bottom:25px;}
+#footerlayout{width:940px; float:left; border:1px solid #eaeaea; margin:0 0 0 20px; padding:10px 0 10px 0;}
+#footer_left{font-family:Tahoma, Geneva, sans-serif; color:#a9a9a9; letter-spacing:.5px; width:180px; float:left; margin:0 0 0 20px;}
+#footer_right{float:left; width:290px; margin:0 0 0 420px; color:#707070;}
+#footer_right a{color:#b4b4b4;}
+
+/*==========download page================*/
+#download1{background:#FFFFFF; width:980px; float:left;}
+#down_layout{width:940px; float:left; padding:180px 0 210px 40px; background:#FFFFFF;}
+#down_logo{float:left; margin:0 0 0 168px; border-bottom:1px solid #333; width:605px; padding:0 0 10px 0;}
+#down_main{width:610px; float:left; margin:50px 0 0 168px;}
+#down_main h2{font-size:16px; color:#222;}
+.protect h1{font-size:48px; color:#1c1c1c; width:370px; float:left;}
+.protect ul{float:left; width:124px; list-style:none; margin:25px 0 0 0;}
+.protect ul li{float:left; margin:1px;}
+/*==file download====*/
+.file_download{width:610px; float:left; margin:25px 0 0 0;}
+.file{background:url(../images/download2_back.png) no-repeat; width:171px; height:37px; float:left; text-transform:uppercase; color:#FFFFFF; font-size:18px; padding:12px 0 0 55px;}
+.file a{color:inherit;}
+.describe{width:367px; float:left; margin:0 0 0 10px;}
+.describe p{line-height:17px;}
+/*=========link profile===========*/
+#user{width:550px; float:left; margin:0 0 0 360px;}
+/*=======================*/
+#user1 table{float:left; width:610px;}
+#user1{width:600px; float:left; margin:0 0 0 310px;}
+#user1 table{float:left; width:610px;}
+/*=======================*/
+#right_table{width:185px; float:right; margin:10px 0 0 0px;}
+
+
+#right_table table{float:left; width:185px; border:1px solid #eaeaea;}
+#right_table table td{ border:1px solid #eaeaea;}
+#right_table table td strong{ color:#FFF; font-size:11px; padding:3px;}
+#ipaddress{width:877px; float:left; margin:10px 0 0 30px;}
+#ipaddress table{width:875px; float:left; margin:5px 0 0 0px; border:none; color:#666666;}
+#layoutbtm1{width:200px; float:right; margin:0 38px 0 0;}
+#layoutbtm1 table{width:200px; float:right; border:none;}
+#layoutbtm2{width:200px; float:right; margin:0 38px 0 0;}
+#layoutbtm2 table{width:200px; float:right; border:none;}
+#view{background:url(../images/button_back.png) no-repeat; width:90px; float:right; height:27px; text-transform:uppercase; text-align:center; line-height:30px; margin:5px 27px 20px 0;
+}
+
+
+
+
+
+.layouthd2{float:left; width:455px; margin:0 0 0 20px; border:1px solid #eaeaea;}
+.layouthd2 h2{float:left; color:#222222; font-size:14px; font-weight:normal; text-transform:uppercase; background:#fafafa; border:1px solid #eaeaea; width:435px; padding:9px 0 8px 20px;}
+.layouthd2 h3{float:left; color:#222222; font-size:14px; font-weight:normal; width:435px; padding:9px 0 8px 20px;}
+.layouthd2 table{width:420px; float:left; margin:18px 0 0 18px; border:1px solid #eaeaea;}
+.layouthd2 table tr.bg1{background:#f9f9f9;}
+.layouthd2 table a{color:inherit;}
+.layouthd2 table td{padding:5px 0 3px 10px; border:1px solid #eaeaea;}
+.link{float:right; width:17px; height:30px; margin:0px; padding:0px;}
+.blue{color:#0456c6;}
+.red{color:#dd0000;}
+.break{margin:0 7px 0 7px;}
+.view{float:right; width:90px; height:27px; background:url(../images/button_back.png) no-repeat; margin:10px 20px 10px 0;  line-height:27px; text-align:center; }
+.view a{font-family:12px; color:#444444;}
+/*  Added By Gaurav */
+.delbtn{
+	background:url(../images/smaill_cross.png) no-repeat;
+	width:20px;
+	geight:20px;
+}
+.hilightpageno{
+	
+	color: #FFF;
+	
+	font-weight: bold;
+ 
+}
+ .sty select {
+   background: transparent;
+   width: 112%;
+   padding: 5px;
+ 
+   height: 34px;
+}
+.sty {
+   width: 100%;
+   height: 30px;
+   overflow: hidden;
+   background: url(../images/down_icon.png) no-repeat right #FFF;
+}
+
+.sty-set select {
+
+   background: transparent;
+   width: 112%;
+   padding: 5px;
+ 
+   height: 34px;
+}
+.sty-set {
+	
+	border:1px solid #f5f5f5;
+   width: 100%;
+   height: 30px;
+   overflow: hidden;
+   background: url(../images/down_icon.png) no-repeat right #FFF;
+}
+
+
+
+  .editbtn{
+	   background: url(../images/range_icon.png) no-repeat;
+	   height:14px;
+	   width:15px;
+	   border:none;
+	   cursor:pointer;
+	  
+	  }
+	  .delbtn{
+	   background: url(../images/smaill_cross.png) no-repeat;
+	   height:14px;
+	   width:15px;
+	   border:none;
+	   cursor:pointer;
+	  
+	  }
+	   .banbtn{
+	   background: url(../images/hand_up_icon.png) no-repeat;
+	   height:14px;
+	   width:15px;
+	   border:none;
+	   cursor:pointer;
+	  
+	  }
+	   .removebanbtn{
+	   background: url(../images/hand_down_icon.png) no-repeat;
+	   height:14px;
+	   width:15px;
+	   border:none;
+	   cursor:pointer;
+	  
+	  }
+	  .cleanbtn
+	  {
+		  background:#efefef;
+		  border:none;
+		 text-align:center; text-transform:uppercase;
+		 font-size:12px;
+		  
+		  
+		}
+		.myspan{
+			color:#0456c6;
+			}
+	.small select{
+				 
+   background: transparent;
+   width: 60px;
+   padding: 0px;
+ 
+  
+}
+.textbx{
+	width:130px;
+	
+	}
+.disablebx{
+	background-color:#D8D8D8;	
+	}	
+.small {
+   width:40px;
+ 
+   overflow: hidden;
+   background: url(../images/../images/down_arrow.png) no-repeat right #FFF;
+}
+				
+			/*login page added by Salim*/
+
+#login_main{width:610px; float:left; margin:50px 0 0 168px;}
+#login_main h2{font-size:16px; color:#222;}
+
+#login_layout{width:940px; float:left; padding:180px 0 210px 40px; background:#FFFFFF;}
+
+#login_bg{background:#FFFFFF; width:980px; float:left;}
+
+.login_layout{float:left; width:455px; margin:0 0 0 80px; border:1px solid #eaeaea;}
+.login_layout h2{float:left; color:#222222; font-size:14px; font-weight:normal; text-transform:uppercase; background:#fafafa; border:1px solid #eaeaea; width:435px; padding:9px 0 8px 20px;}
+.login_layout h3{float:left; color:#222222; font-size:14px; font-weight:normal; width:435px; padding:9px 0 8px 20px;}
+.login_layout table{width:420px; float:left; margin:18px 0 0 18px; border:1px solid #eaeaea;}
+.login_layout table tr.bg1{background:#f9f9f9;}
+.login_layout table a{color:inherit;}
+.login_layout table td{padding:5px 0 3px 10px; border:1px solid #eaeaea;}
+
+#login{width:420px; float:left; margin:10px 0 0 10px;}
+#login table a{color:#0456c6;}
+#login h2{font-size:20px; color:#222; float:left; margin:10px 0 0 0;}
+#login table{border:none; float:left; width:590px; margin:0;}
+#login table td{border:none;}
+/*#login table td input{width:300px; background:#fafafa; height:25px; border:1px solid #eaeaea;}*/
+.loginput{width:300px; background:#fafafa; height:25px; border:1px solid #eaeaea;}
+.f_upload{width:205px; background:#fafafa; height:25px; border:1px solid #eaeaea;}
+
+.login_button{float:right; width:90px; height:27px; background:url(../images/button_back.png) no-repeat; margin:10px 20px 15px 0;  line-height:27px; text-align:center; }
+.button_browse{
+	float:right;
+	width:90px;
+	height:27px;
+	background:url(../images/button_back.png) no-repeat;
+	line-height:27px;
+	text-align:center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0;
+}
+.login_button a{font-family:12px; color:#444444;}
+
+.forgot_link{float:left;  height:27px;  margin:3px 20px 0px 20px;  line-height:27px; text-align:center; }
+.forgot_link a{font-family:12px; color:#0456C6;}	
+/*============================================================*/
+
+#table_top1{width:877px; float:left; margin:10px 0 0 30px; border-top:1px solid #eaeaea;}
+#table_top1 table a{color:#0456c6;}
+#table_top1 h2{font-size:20px; color:#222; float:left; margin:10px 0 0 0;}
+#table_top1 table{border:none; float:left; width:590px; margin:0;}
+#table_top1 table td{border:none;}
+#table_top1 table td input{width:450px;
+ background:#fafafa; height:25px; border:1px solid #eaeaea;}
+ /*----------help class is used to style message about copying the Download code and download url on manage and profile page*/
+ .hlpmsg
+ {
+	color:#000000;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+	font-weight: bold;
+ 
+ 
+ }
+#mycustom_id
+ {
+	width:40px; background:#fafafa; height:25px; border:1px solid #eaeaea;
+ }
+#p_logo
+{
+float:left;
+
+}
+#c_logo
+{
+float:right;
+
+}
+.divonsetting
+{
+width:275px;
+
+}
+.t_head
+{
+text-decoration:none;
+color:#000000;
+
+}
